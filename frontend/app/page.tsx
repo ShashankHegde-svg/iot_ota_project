@@ -26,7 +26,7 @@ export default function Home(){
   useEffect(()=>{
 
     const fetch = () =>
-      api.get("/devices")
+      api.get("/devices/")
         .then(r => setDevices(r.data))
 
     fetch()

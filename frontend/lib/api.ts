@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8000"
+  baseURL: "https://supreme-spork-wrx7p7vx56qvfv5-8000.app.github.dev/"
 });
 
 export default api;
